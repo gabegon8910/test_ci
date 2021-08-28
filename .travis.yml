@@ -1,11 +1,20 @@
+#language: python
+#python: :
+#  - 3.6
+#script:
+#  - python3 test.py
+#notifications:
+#  email:
+#    recipients:
+#      - ggonzalez9871@gmail.com
+#    on_success: never
+#    on_failure: always
 language: python
-python: :
-  - 3.6
+
+python:
+
+  - "2.7"
+
 script:
-  - python3 test.py
-notifications:
-  email:
-    recipients:
-      - ggonzalez9871@gmail.com
-    on_success: never
-    on_failure: always
+
+  - python test.py
