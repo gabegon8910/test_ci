@@ -14,7 +14,7 @@ class Calculator:
         return self.y / self.y
 
     def multiply(self):
-        return self.x * self.y
+        return self.x * self.y +1
 
 
 if __name__ == '__main__':

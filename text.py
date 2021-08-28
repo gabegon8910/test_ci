@@ -3,7 +3,7 @@ from main import Calculator
 def test_add():
     x,y = 1,2
     instance = Calculator(x,y)
-    assert instance.sum() == x + y , "Add method doesn't work"
+    assert instance.sum() == x + y, "Add method doesn't work"
 
 def test_subtract():
     x,y = 1,2
