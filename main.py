@@ -8,13 +8,13 @@ class Calculator:
         return self.x + self.y
 
     def subtract(self):
-        return self.x - self.y
+        return self.x - self.y - 1
 
     def divide(self):
         return self.y / self.y
 
     def multiply(self):
-        return self.x * self.y +1
+        return self.x * self.y
 
 
 if __name__ == '__main__':
