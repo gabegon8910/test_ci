@@ -1,8 +1,8 @@
 class Calculator:
 
     def __init__(self, x, y):
-        self.x
-        self.y
+        self.x = x
+        self.y = y
 
 
     def sum(self):
