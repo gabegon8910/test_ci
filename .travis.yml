@@ -9,4 +9,3 @@ notifications:
       - ggonzalez9871@gmail.com
     on_success: never
     on_failure: always
-    on_error: always
