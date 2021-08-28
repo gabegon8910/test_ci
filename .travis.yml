@@ -2,7 +2,7 @@ language: python
 python: :
   - 3.6
 script:
-  - test.py
+  - python3 test.py
 notifications:
   email:
     recipients:
