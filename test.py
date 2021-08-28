@@ -19,5 +19,3 @@ def test_multiply():
     x,y = 1,2
     instance = Calculator(x,y)
     assert instance.multiply() == x*y, "Multiply method does not work"
-
-test_add()
