@@ -4,13 +4,10 @@ class Calculator:
         self.x = x
         self.y = y
 
-
-    def sum(self):
-
+    def add(self):
         return self.x + self.y
 
     def subtract(self):
-
         return self.x - self.y
 
     def divide(self):
@@ -21,5 +18,5 @@ class Calculator:
 
 
 if __name__ == '__main__':
-    instance = Calculator(1,2)
+    instance = Calculator(1, 2)
     print(instance.add())
