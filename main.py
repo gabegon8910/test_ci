@@ -20,6 +20,6 @@ class Calculator:
 if __name__ == '__main__':
     instance = Calculator(1, 2)
     print(instance.add())
-    print(instance.subtract())
-    print(instance.divide())
-    print(instance.multiply())
+    # print(instance.subtract())
+    # print(instance.divide())
+    # print(instance.multiply())
